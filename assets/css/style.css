@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #777777;
     background-image: url("../images/rose.png");
@@ -60,7 +64,7 @@ li.two {
     width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
-    height: 98px;
+    height: 100px;
     position: relative;
     top: -100px;
     border-bottom: 2px solid #cccccc;
@@ -77,18 +81,21 @@ li.two {
 }
 
 .main {
-    width: 930px;
-    margin: 0 auto;
+    width: 960px;
+    margin: 0 auto 0 auto;
     background-color: #ffffff;
     border: 3px solid #dddddd;
-    margin-top: -45px;
+    position: relative;
+    bottom: 60px;
     padding: 20px;
+    overflow: auto;
 }
+
 
 .main h1 {
     color: #4aaaa5;
     border-bottom: 3px solid #dddddd;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 
@@ -118,8 +125,8 @@ footer {
 }
 .picture1, .picture2, .picture3, .picture4, .picture5 {
     margin: 10px;
-    display: inline-block;
     float: left;
+   
 }
 
 .picture1 {
@@ -203,4 +210,7 @@ footer {
     text-align: center;
     margin-top: 150px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+form {
+    padding: 20px;
 }
