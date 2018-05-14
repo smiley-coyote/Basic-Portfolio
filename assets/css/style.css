@@ -21,7 +21,7 @@ a:visited {
 }
 
 a:hover {
-    background-color: #4aaaa5;
+    text-decoration: underline;
     height: 20px;
 }
 
@@ -176,6 +176,10 @@ footer {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+a:hover #hangman {
+    background-color: #664AC1;
+}
+
 #RPGgame {
     background-color: #4aaaa5;
     color: white;
@@ -183,6 +187,10 @@ footer {
     text-align: center;
     margin-top: 150px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover #RPGgame {
+    background-color: #664AC1;
 }
 
 #triviagame {
@@ -194,6 +202,10 @@ footer {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+a:hover #triviagame {
+    background-color: #664AC1;
+}
+
 #widget {
     background-color: #4aaaa5;
     color: white;
@@ -201,6 +213,10 @@ footer {
     text-align: center;
     margin-top: 150px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover #widget {
+    background-color: #664AC1;
 }
 
 #rockpaperscissors {
@@ -211,6 +227,12 @@ footer {
     margin-top: 150px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+a:hover #rockpaperscissors {
+    background-color: #664AC1;
+}
+
 form {
-    padding: 20px;
+    line-height: 25px;
+
 }
